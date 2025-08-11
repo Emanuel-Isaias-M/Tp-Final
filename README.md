@@ -4,6 +4,7 @@ App de CRUD de películas hecha con **React + Vite** y **Tailwind CSS**, usando 
 
 ## 🚀 Demo
 **Netlify:** [https://fantastic-kitten-bf527f.netlify.app/items](https://fantastic-kitten-bf527f.netlify.app/items)
+https://fantastic-kitten-bf527f.netlify.app/items 
 
 ## ✨ Funcionalidades
 - Listado de películas (GET /movies)
