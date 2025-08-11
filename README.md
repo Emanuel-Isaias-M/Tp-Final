@@ -3,8 +3,7 @@
 App de CRUD de películas hecha con **React + Vite** y **Tailwind CSS**, usando **MockAPI** como backend. Permite **listar, crear, editar y eliminar** películas.
 
 ## 🚀 Demo
-**Netlify:** [https://fantastic-kitten-bf527f.netlify.app/items](https://fantastic-kitten-bf527f.netlify.app/items)
-https://fantastic-kitten-bf527f.netlify.app/items 
+**Netlify:** https://nimble-begonia-f6d825.netlify.app/items
 
 ## ✨ Funcionalidades
 - Listado de películas (GET /movies)
