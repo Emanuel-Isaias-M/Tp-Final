@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Escala tipográfica base */
+@layer base {
+  html { @apply antialiased; }
+  h1 { @apply text-3xl font-bold; }
+  h2 { @apply text-2xl font-semibold; }
+  body { @apply bg-background text-gray-900; }
+}
+
+/* Componentes reutilizables */
+@layer components {
+  .container { @apply max-w-6xl mx-auto px-4; }
+
+  .btn { @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-medium transition active:scale-[.98]; }
+  .btn-primary { @apply btn bg-brand-600 text-white hover:bg-brand-700 shadow; }
+  .btn-secondary { @apply btn bg-gray-100 hover:bg-gray-200 text-gray-800; }
+  .btn-warning { @apply btn bg-yellow-500 text-white hover:bg-yellow-600; }
+  .btn-danger  { @apply btn bg-red-600 text-white hover:bg-red-700; }
+
+  .card { @apply rounded-2xl bg-white shadow-card border border-gray-100; }
+  .card-body { @apply p-4; }
+
+  .input { @apply rounded-xl border-gray-300 focus:border-brand-500 focus:ring-brand-500; }
+  .label { @apply text-sm font-medium text-gray-700; }
+  .help  { @apply text-xs text-red-600; }
+
+  .badge { @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium bg-gray-100 text-gray-700; }
+}
