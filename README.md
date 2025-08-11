@@ -75,4 +75,4 @@ src/
 
 
 ## 📄 Licencia
-Proyecto educativo (TP-5 React).
+Proyecto realizado por Isaias Morales (TP-5 React).
